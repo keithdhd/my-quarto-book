@@ -1,9 +1,10 @@
 project:
   type: book
   output-dir: docs
+  post-render: encrypt.R
 
 book:
-  title: "my-querto-book"
+  title: "Data Science book"
   author: "Norah Jones"
   date: "22/04/2025"
   chapters:
