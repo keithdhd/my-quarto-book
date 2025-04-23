@@ -1,0 +1,20 @@
+# Your first R Markdown document
+
+You need certain R packages for using R Markdown and also for carrying out this tutorial. The following instructions will help to get you set up and ready to go.
+
+## Install packages
+Open RStudio and copy-paste the lines below into the console and press Enter:
+
+```{r, eval = FALSE}
+ markdown_practice <- c(   
+     "rmarkdown",   
+     "tinytex",   
+     "tidyverse",   
+     "knitr",   
+     "remotes",   
+     "gapminder",   
+     "shiny",   
+     "flexdashboard",   
+     "here")
+ install.packages(markdown_practice)
+```

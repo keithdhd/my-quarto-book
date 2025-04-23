@@ -10,6 +10,7 @@ book:
   chapters:
     - index.qmd
     - intro.qmd
+    - your-first-markdown-doc.qmd
     - summary.qmd
     - references.qmd
 
