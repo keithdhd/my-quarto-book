@@ -2,21 +2,29 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Data Science book",
+    "title": "Preface",
     "section": "",
-    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.",
-    "crumbs": [
-      "Preface"
-    ]
+    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books."
   },
   {
     "objectID": "your-first-markdown-doc.html",
     "href": "your-first-markdown-doc.html",
-    "title": "2  Your first R Markdown document",
+    "title": "Your first R Markdown document",
     "section": "",
-    "text": "2.1 Install packages\nOpen RStudio and copy-paste the lines below into the console and press Enter:\nmarkdown_practice &lt;- c(   \n     \"rmarkdown\",   \n     \"tinytex\",   \n     \"tidyverse\",   \n     \"knitr\",   \n     \"remotes\",   \n     \"gapminder\",   \n     \"shiny\",   \n     \"flexdashboard\",   \n     \"here\")\n install.packages(markdown_practice)",
-    "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Your first R Markdown document</span>"
-    ]
+    "text": "You need certain R packages for using R Markdown and also for carrying out this tutorial. The following instructions will help to get you set up and ready to go.\n\n\nOpen RStudio and copy-paste the lines below into the console and press Enter:\n\n markdown_practice &lt;- c(   \n     \"rmarkdown\",   \n     \"tinytex\",   \n     \"tidyverse\",   \n     \"knitr\",   \n     \"remotes\",   \n     \"gapminder\",   \n     \"shiny\",   \n     \"flexdashboard\",   \n     \"here\")\n install.packages(markdown_practice)"
+  },
+  {
+    "objectID": "your-first-markdown-doc.html#install-packages",
+    "href": "your-first-markdown-doc.html#install-packages",
+    "title": "Your first R Markdown document",
+    "section": "",
+    "text": "Open RStudio and copy-paste the lines below into the console and press Enter:\n\n markdown_practice &lt;- c(   \n     \"rmarkdown\",   \n     \"tinytex\",   \n     \"tidyverse\",   \n     \"knitr\",   \n     \"remotes\",   \n     \"gapminder\",   \n     \"shiny\",   \n     \"flexdashboard\",   \n     \"here\")\n install.packages(markdown_practice)"
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "Introduction",
+    "section": "",
+    "text": "Introduction\nThis is a book created from markdown and executable code.\nSee @knuth84 for additional discussion of literate programming."
   }
 ]

@@ -1,26 +1,22 @@
 project:
-  type: book
+  type: website
   output-dir: docs
   #post-render: encrypt.r
 
-book:
-  title: "Data Science book"
-  author: "Norah Jones"
-  date: "22/04/2025"
-  chapters:
-    - index.qmd
-    - intro.qmd
-    - your-first-markdown-doc.qmd
-    - summary.qmd
-    - references.qmd
-
-bibliography: references.bib
+website:
+  title: "Data Science for Health and Biomedical Sciences"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - Week 1
+      - Week 2
 
 format:
   html:
     theme: spacelab
-  pdf:
-    documentclass: scrreprt
+    css: styles.css
+    toc: true
 
 
 
