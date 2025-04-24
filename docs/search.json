@@ -8,25 +8,5 @@
     "crumbs": [
       "Preface"
     ]
-  },
-  {
-    "objectID": "intro.html",
-    "href": "intro.html",
-    "title": "1  Introduction",
-    "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
-    ]
-  },
-  {
-    "objectID": "your-first-markdown-doc.html",
-    "href": "your-first-markdown-doc.html",
-    "title": "2  Your first R Markdown document",
-    "section": "",
-    "text": "2.1 Install packages\nOpen RStudio and copy-paste the lines below into the console and press Enter:\nmarkdown_practice &lt;- c(   \n     \"rmarkdown\",   \n     \"tinytex\",   \n     \"tidyverse\",   \n     \"knitr\",   \n     \"remotes\",   \n     \"gapminder\",   \n     \"shiny\",   \n     \"flexdashboard\",   \n     \"here\")\n install.packages(markdown_practice)",
-    "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Your first R Markdown document</span>"
-    ]
   }
 ]
